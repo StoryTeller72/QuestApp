@@ -18,7 +18,6 @@
 
 
     <style name="textViewStyleCustom" parent="Widget.AppCompat.TextView">
-        <item name="android:layout_width">match_parent</item>
         <item name="font">@font/roboto</item>
         <item name="android:background">@color/blue_dark</item>
         <item name="android:textColor">@color/white</item>
@@ -28,7 +27,6 @@
     </style>
 
     <style name="buttonsStyleCustom" parent="Widget.AppCompat.Button">
-        <item name="android:layout_width">match_parent</item>
         <item name="font">@font/roboto</item>
         <item name="android:background">@color/blue_light</item>
         <item name="android:textColor">@color/white</item>

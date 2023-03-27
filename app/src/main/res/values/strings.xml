@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QuestApp</string>
+    <string name="header_mainActivity">Моя визуальная новелла</string>
 </resources>

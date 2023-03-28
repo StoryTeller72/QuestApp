@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.EndActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/backgroundImageView_mainActivity"
+        android:id="@+id/backgroundImageView_endActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/start_end_background_1_2_3_14"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/header_textView_mainActivity"
-        android:text="@string/header_mainActivity"
+        android:id="@+id/header_textView_endActivity"
+        android:text="@string/thanks_text_endActivity"
         android:paddingHorizontal="16dp"
         android:layout_height="106dp"
         android:background="@color/blue_light"
@@ -26,17 +26,16 @@
         android:layout_marginTop="164dp"
         android:textSize="36sp"
         />
-    
+
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/start_button_activityMain"
-        app:layout_constraintTop_toBottomOf="@id/header_textView_mainActivity"
+        android:id="@+id/starNewGame_button_endActivity"
+        app:layout_constraintTop_toBottomOf="@id/header_textView_endActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="143dp"
         android:layout_width="match_parent"
         android:layout_height="34dp"
         android:background="@color/blue_dark"
-        android:text="Начать"/>
-
+        android:text="@string/try_again_text_button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

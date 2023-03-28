@@ -13,4 +13,6 @@ object Keys {
     const val TALKING_MOVIE_7 = "doYouLikeMovie"
     const val TALKING_MOVIE_9 = "goodMovie"
     const val TALKING_MOVIE_10 = "badMovie"
+    const val END_SCREEN = "endgame"
+    const val START_SCREEN ="startScreen"
 }

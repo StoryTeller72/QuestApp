@@ -1,16 +1,46 @@
 <resources>
     <string name="app_name">QuestApp</string>
-    <string name="header_mainActivity">Моя визуальная новелла</string>
-    <string name="question_android3_firstChoice">Отлично, %s! Чем займемся?</string>
-    <string name="goToJogging">"Пойдем на пробежку"</string>
-    <string name="goToExpedition">Пойдем в поход</string>
-    <string name="goToWalkingOnField">Пойдем гулять по полю</string>
+    <string name="header_startActivity">Моя визуальная новелла</string>
+    <string name="header_finishActivity">Спасибо, что поиграли!</string>
+    <string name="question_firstChoice_3">Отлично, %s! Чем займемся?</string>
+    <string name="goToJogging_3">"Пойдем на пробежку"</string>
+    <string name="goToExpedition_3">Пойдем в поход</string>
+    <string name="goToWalkingOnField_3">Пойдем гулять по полю</string>
 
-    <string name="question_android4_expedition">Как уютно… Но уже темнеет.</string>
-    <string name="goHomeLookMovie">Пойдем домой и посмотрим фильм</string>
-    <string name="goCelebrateHalloween">Пойдем домой и отправзднуем Хэллоуин</string>
+    <string name="question_expedition_5">Как уютно… Но уже темнеет.</string>
+    <string name="goHomeLookMovie_5">Пойдем домой и посмотрим фильм</string>
+    <string name="goCelebrateHalloween_5">Пойдем домой и отправзднуем Хэллоуин</string>
 
-    <string name="question_field">Тебе грустно… Пойдем домой?</string>
-    <string name="maybeLookMovie">Может, посмотрим фильм?</string>
-    <string name="celebrate">Да, отпразднуем. Хэллоуин</string>
+    <string name="question_field_6">Тебе грустно… Пойдем домой?</string>
+    <string name="maybeLookMovie_6">Может, посмотрим фильм?</string>
+    <string name="celebrate_6">Да, отпразднуем. Хэллоуин</string>
+
+    <string name="jogging_question_4">Может, пойдем домой?…</string>
+    <string name="jogging_movie_4">Да, и посмотрим фильм</string>
+    <string name="jogging_halloween_4">Да, и отпразднуем Хэллоуин</string>
+
+    <string name="watching_movie_question_7">Как тебе фильм?</string>
+    <string name="watching_movie_positive_7">Мне понравился!</string>
+    <string name="watching_movie_negative_7">Не очень</string>
+
+    <string name="watching_movie_question_9">Отлично а теперь спать…</string>
+    <string name="watching_movie_question_10">Жаль… Тогда пойдем спать?</string>
+    <string name="late">Да, уже поздно</string>
+
+    <string name="decorate_room_question_8">Получается очень красиво!</string>
+    <string name="decorate_room_option_movie_8">Да! Может, посмотрим фильм?</string>
+    <string name="decorate_room_option_costume_8">Да! Давай сделаем костюм!</string>
+
+    <string name="party_question_11">Мне нравиться твой костюм.</string>
+    <string name="party_option_positive_11">Твой тоже очень красивый!.</string>
+    <string name="party_option_negative_11">А мне, если честно, не нравиться твой…</string>
+
+    <string name="party_header_positive_12">Спасибо! Ну, пойдем спать?</string>
+    <string name="party_header_13">Ничего, я не в обиде. Пойдем спать?</string>
+
+    <string name="tryAgain_button_Text">Пройти еще раз</string>
+    <string name="start_buttonText_startActivity1">Начать</string>
+    <string name="thanks_text_endActivity">Спасибо, что поиграли!</string>
+    <string name="try_again_text_button">Пройти еще раз</string>
+
 </resources>

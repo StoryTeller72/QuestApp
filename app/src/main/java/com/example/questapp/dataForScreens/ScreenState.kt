@@ -2,7 +2,7 @@ package com.example.questapp.dataForScreens
 
 
 
-data class ScreenStateCommon(
+data class ScreenState(
     val amntButtons: Int,
     val questionText: Int,
     val topButtonInfo: Pair<Int, String>?,

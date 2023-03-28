@@ -3,17 +3,8 @@ package com.example.questapp.dataForScreens
 import com.example.questapp.R
 
 object ScreenInfo {
-    val startScreen = StartFinishState(
-        header = R.string.header_startActivity,
-        buttonText = R.string.start_buttonText_startActivity1
-    )
-
-    val finishScreen = StartFinishState(
-        header = R.string.header_finishActivity,
-        buttonText = R.string.tryAgain_button_Text
-    )
-    val screens = mapOf<String?, ScreenStateCommon>(
-        Keys.WELCOME_3 to ScreenStateCommon(
+    val screens = mapOf<String?, ScreenState>(
+        Keys.WELCOME_3 to ScreenState(
             amntButtons = 3,
             questionText = R.string.question_firstChoice_3,
             topButtonInfo = Pair(R.string.goToJogging_3, Keys.JOGGING_4),
@@ -24,7 +15,7 @@ object ScreenInfo {
             hasCatImage = true,
             hasExtraStringName = true
             ),
-        Keys.EXPEDITION_5 to ScreenStateCommon(
+        Keys.EXPEDITION_5 to ScreenState(
             amntButtons = 2,
             topButtonInfo = null,
             midButtonInfo = Pair(R.string.goHomeLookMovie_5, Keys.TALKING_MOVIE_7),
@@ -35,7 +26,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.JOGGING_4 to ScreenStateCommon(
+        Keys.JOGGING_4 to ScreenState(
             amntButtons = 2,
             questionText = R.string.jogging_question_4,
             topButtonInfo = null,
@@ -46,7 +37,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.WALKING_FIELD_6 to ScreenStateCommon(
+        Keys.WALKING_FIELD_6 to ScreenState(
             amntButtons = 2,
             questionText = R.string.question_field_6,
             topButtonInfo = null,
@@ -57,7 +48,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.TALKING_MOVIE_7 to ScreenStateCommon(
+        Keys.TALKING_MOVIE_7 to ScreenState(
             amntButtons = 2,
             questionText = R.string.watching_movie_question_7,
             topButtonInfo = null,
@@ -68,7 +59,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.TALKING_MOVIE_9 to ScreenStateCommon(
+        Keys.TALKING_MOVIE_9 to ScreenState(
             amntButtons = 1,
             topButtonInfo = null,
             midButtonInfo = Pair(R.string.late, Keys.END_SCREEN),
@@ -79,7 +70,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.TALKING_MOVIE_10 to ScreenStateCommon(
+        Keys.TALKING_MOVIE_10 to ScreenState(
             amntButtons = 1,
             topButtonInfo = null,
             midButtonInfo = Pair(R.string.late, Keys.END_SCREEN),
@@ -90,7 +81,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.DECORATE_ROOM_8 to ScreenStateCommon(
+        Keys.DECORATE_ROOM_8 to ScreenState(
             amntButtons = 2,
             questionText = R.string.decorate_room_question_8,
             topButtonInfo = null,
@@ -101,7 +92,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.TALKING_COSTUME_11 to ScreenStateCommon(
+        Keys.TALKING_COSTUME_11 to ScreenState(
             amntButtons = 2,
             questionText = R.string.party_question_11,
             topButtonInfo = null,
@@ -113,7 +104,7 @@ object ScreenInfo {
             hasExtraStringName = false
         ),
 
-        Keys.TALKING_COSTUME_THANKS_12 to ScreenStateCommon(
+        Keys.TALKING_COSTUME_THANKS_12 to ScreenState(
             amntButtons = 1,
             questionText = R.string.party_header_positive_12,
             topButtonInfo = null,
@@ -124,7 +115,7 @@ object ScreenInfo {
             hasCatImage = false,
             hasExtraStringName = false
         ),
-        Keys.TALKING_COSTUME_13 to ScreenStateCommon(
+        Keys.TALKING_COSTUME_13 to ScreenState(
             amntButtons = 1,
             questionText = R.string.party_header_13,
             topButtonInfo = null,

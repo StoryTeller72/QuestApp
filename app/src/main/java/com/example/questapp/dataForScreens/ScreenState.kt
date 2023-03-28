@@ -4,8 +4,12 @@ package com.example.questapp.dataForScreens
 
 data class ScreenState(
     val amntButtons: Int,
-    val questionText: String,
-    val topButtonsText: String,
-    val middleButtonText: String?,
-    val bottomButtonText: String?,
+    val questionText: Int,
+    val topButtonsText: Int?,
+    val keyTopButton: String?,
+    val middleButtonText: Int,
+    val keyMidleButton: String,
+    val bottomButtonText: Int?,
+    val keyBottomButton: String?,
+    val backGround: Int
 )

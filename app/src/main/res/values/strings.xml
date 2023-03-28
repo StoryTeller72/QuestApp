@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">QuestApp</string>
     <string name="header_mainActivity">Моя визуальная новелла</string>
+    <string name="question_android3_firstChoice">Отлично, %s! Чем займемся?</string>
+    <string name="goToJogging">"Пойдем на пробежку"</string>
+    <string name="goToExpedition">Пойдем в поход</string>
+    <string name="goToWalkingOnField">Пойдем гулять по полю</string>
+
+    <string name="question_android4_expedition">Как уютно… Но уже темнеет.</string>
+    <string name="goHomeLookMovie">Пойдем домой и посмотрим фильм</string>
+    <string name="goCelebrateHalloween">Пойдем домой и отправзднуем Хэллоуин</string>
+
+    <string name="question_field">Тебе грустно… Пойдем домой?</string>
+    <string name="maybeLookMovie">Может, посмотрим фильм?</string>
+    <string name="celebrate">Да, отпразднуем. Хэллоуин</string>
 </resources>
